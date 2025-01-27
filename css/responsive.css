@@ -1,0 +1,187 @@
+@media (min-width: 367px ) and (max-width: 576px){
+
+nav .nav-item .nav-item1{
+    margin-left: 35px;
+   
+}
+
+nav .nav-item .nav-input {
+  margin-left: 34px;
+  padding: 20px 86px 20px 15px;
+}
+nav .nav-item .nav-icon{
+  margin: 0px 0px 3px 7px;
+}
+
+nav .profile-icon img {
+  margin: 0px 33px;
+}
+#bills .bills-2nd .down input {
+ padding: 20px 73px 20px 20px;
+}
+
+.bills-2nd .down .button-btn {
+    margin-top: 68px;
+    margin-left: 28px;
+    margin-bottom: 30px;
+}
+
+#bills .title h1 {
+  color: #121212;
+  font-family: "Poppins", serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#popular .title h1 {
+ 
+  font-size: 30px;
+ 
+}
+
+#categories .title h1 {
+ 
+  font-size: 25px;
+ 
+}
+}
+
+
+@media (min-width: 576px ) and (max-width: 768px){
+
+  nav .nav-item .nav-item1{
+      margin-left: 35px;
+     
+  }
+  
+  nav .nav-item .nav-input {
+    margin-left: 34px;
+   
+  }
+  nav .nav-item .nav-icon{
+    margin: 0px 0px 3px 7px;
+  }
+  
+  nav .profile-icon img {
+    margin: 0px 33px;
+  }
+  #bills .bills-2nd .down input {
+   padding: 20px 331px 20px 20px;
+  }
+  
+  .bills-2nd .down .button-btn {
+      margin-top: 68px;
+      margin-left: 28px;
+      margin-bottom: 30px;
+  }
+  
+
+ 
+ 
+  }
+
+
+  @media (min-width: 768px ) and (max-width: 992px){
+
+    nav .nav-item .nav-item1{
+        margin-left: 35px;
+       
+    }
+    
+    nav .nav-item .nav-input {
+      margin-left: 34px;
+     
+    }
+    nav .nav-item .nav-icon{
+      margin: 0px 0px 3px 7px;
+    }
+    
+    nav .profile-icon img {
+      margin: 0px 33px;
+    }
+    #bills .bills-2nd .down input {
+     padding: 20px 331px 20px 20px;
+    }
+    
+    .bills-2nd .down .button-btn {
+        margin-top: 68px;
+        margin-left: 28px;
+        margin-bottom: 30px;
+    }
+    
+  
+   
+   
+    }
+
+ @media (min-width: 992px ) and (max-width: 1200px){
+
+      nav .nav-item .nav-item1{
+          margin-left: 35px;
+         
+      }
+      
+      nav .nav-item .nav-input {
+        margin-left: 34px;
+       
+      }
+      nav .nav-item .nav-icon{
+        margin: 0px 0px 3px 7px;
+      }
+      
+      nav .profile-icon img {
+        margin: 0px 33px;
+      }
+      #bills .bills-2nd .down input {
+       padding: 20px 331px 20px 20px;
+      }
+      
+      .bills-2nd .down .button-btn {
+          margin-top: 68px;
+          margin-left: 28px;
+          margin-bottom: 30px;
+      }
+      
+    
+     
+     
+      }
+
+@media (min-width: 1200px ) and (max-width: 1400px){
+
+        nav .nav-item .nav-item1{
+            margin-left: 35px;
+           
+        }
+        
+        nav .nav-item .nav-input {
+          margin-left: -3px;
+      }
+  
+        nav .nav-item .nav-icon{
+          margin: 0px 0px 3px 7px;
+        }
+        
+        nav .profile-icon img {
+          margin: 0px 33px;
+        }
+        #bills .bills-2nd .down input {
+          
+            padding: 20px 250px 20px 20px;
+      
+        }
+        
+        .bills-2nd .down .button-btn {
+            margin-top: 68px;
+            margin-left: 28px;
+            margin-bottom: 30px;
+        }
+        
+       #bills .bills-2nd .down .button-btn {
+        
+          margin-left: 0px;
+      }
+       
+       
+        }

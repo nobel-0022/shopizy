@@ -1,0 +1,517 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1440px;
+
+}
+a{
+  text-decoration: none;
+
+}
+ul,ol{
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+ 
+   /*  Nav Start  */
+nav{
+    margin-top: 15px;
+    
+   }
+
+nav ul li .nav-item1{
+margin-left: 113px;
+color: #121212;
+font-family: "Poppins", serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 12px;
+}
+
+nav ul li .nav-item2{
+  margin-left: 37px;
+  color: #121212;
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 12px;
+  }
+
+nav ul li .nav-input{
+
+  margin-left: 42px;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  background: rgba(69, 110, 214, 0.05);
+  padding: 20px 208px 20px 24px;
+
+
+}
+
+nav ul li .nav-input::placeholder{
+  color: #121212;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+nav span {
+  position: relative;
+}
+nav span img{
+  position: absolute;
+  margin-top: 22px;
+  margin-left: -48px;
+}
+
+nav .nav-icon img{
+  margin: 19px 31px;
+}
+
+nav .profile-icon img{
+  margin: 14px 31px;
+}
+
+
+   /*  Nav End  */
+/* font-family: "Poppins", serif; */
+
+/* Common CSS */
+.title  h1{
+  color: #121212;
+  font-family: "Poppins", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+  /* Main Start */
+#main{
+  margin-bottom: 100px;
+
+}
+#main .container {
+  max-width: 1607px;
+}
+.carousel-indicators {
+  bottom: -55px;
+  
+  }
+.carousel-indicators [data-bs-target] {
+    background-color: #456ED6;
+    width: 16px;
+    height: 11px;
+}
+  /* Main Start */
+
+/* Bills Start */
+
+#bills {
+  margin-bottom: 121px;
+}
+#bills .bills-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#bills .bills-section .button-btn button{
+  color: #456ED6;
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  background: none;
+  
+  
+}
+#bills .bills-section .button-btn{
+  border: 1px solid #456ED6;
+  padding: 10px 30px;
+  border-radius: 14px;
+  transition: all linear .3s;
+
+}
+#bills .bills-section .button-btn:hover{
+background-color: #c1cff3;
+}
+
+.bills-2nd{
+  border-radius: 20px;
+  border: 1px solid #9F9F9F;
+  margin-top: 50px;
+}
+.bills-2nd .sub-title h4{
+color: #121212;
+text-align: center;
+font-family: "Poppins", serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.bills-2nd .sub-title h4::after{
+  content: "";
+  display: block;
+  background-color: #456ED6;
+  width: 100%;
+  height: 4px;
+  margin-top: 20px;
+}
+.bills-2nd .sub-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px 0px 35px;
+}
+.bills-2nd hr {
+  margin: 0;
+ 
+}
+.bills-2nd .down{
+  padding: 20px 30px 20px 30px;
+}
+
+.down h5{
+  color: #121212;
+  
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px 0px 13px;
+}
+.bills-2nd .down input{
+  border: 1px solid #456ED6;
+  border-radius: 14px;
+  padding: 20px 343px 20px 20px;
+}
+
+
+.bills-2nd .down input::placeholder{
+  color: #121212;
+  opacity: 0.4;
+  font-family: "Poppins", serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.bills-2nd .down span{
+  position: relative;
+}
+.bills-2nd .down span i {
+  position: absolute;
+  margin-left: -36px;
+  margin-top: 25px;
+}
+
+.bills-2nd .down .button-btn{
+  margin-top: 68px;
+  margin-left: 28px;
+}
+.bills-2nd .down .button-btn a:hover{
+ background-color: #456ED6;
+ color: #FFF;
+}
+
+.bills-2nd .down a{
+ border-radius: 14px;
+ padding: 20px 50px;
+ border: 1px solid #456ED6;
+ transition: linear all .3s;
+ font-family: "Poppins", serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+/* Bills End */
+
+/* Popular Start */
+#popular .icon{
+  margin-top: 60px;
+  margin-left: 35px;
+  margin-right: -80px;
+}
+
+.icon .icon-item h6{
+  color: #000;
+  margin-top: 34px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* Popular End */
+
+
+/* Flash Start */
+#flash{
+  margin-top: 121px;
+  background: url(../img/flashbg.png) center no-repeat;
+  background-size: cover;
+}
+#flash .flash-item{
+  margin-top: 107px;
+}
+
+#flash .flash-item h2{
+  color: #FFF;
+
+  font-family: "Poppins", serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 7px;
+}
+
+#flash .flash-item p{
+  color: #FFF;
+
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#flash .flash-item .flash-btn{
+  margin-top: 30px;
+}
+#flash .flash-item .flash-btn a{
+  color: #456ED6;
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 1px solid #FFF;
+  padding: 10px 46px;
+  border-radius: 18px;
+  background-color: #FFF;
+  transition: all linear .3s;
+ 
+}
+
+#flash .flash-item .flash-btn a:hover{
+  background: #456ED6;
+  color: #FFF;
+}
+
+#flash .flash-item2{
+  background: #FFF;
+  margin-top: 71px;
+  border-radius: 14px;
+  align-content: center;
+  width: 260px;
+  margin-bottom: 70px;
+}
+
+#flash .flash-item2 p{
+  color: #000;
+font-family: "Poppins", serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 216px;
+margin-left: 14px;
+}
+
+#flash .flash-item2 img{
+  margin: 8px;
+}
+
+#flash .flash-item2 h6{
+  color: #000;
+
+font-family: "Poppins", serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 14px;
+}
+
+#flash .flash-item2 .jakarta-item{
+  display: flex;
+
+}
+
+#flash .flash-item2 span{
+  margin-left: -30px;
+  
+}
+#flash .flash-item2 span i{
+  color: #FFC540;
+  
+}
+
+#flash .flash-item2 input{
+  width: 90%;
+  margin: 0px 8px 0px 12px;
+}
+
+#flash .flash-item2 p{
+  color: #000;
+
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+/* Flash End */
+
+
+/* Categories start */
+
+
+#categories{
+  margin-top: 122px;
+}
+#categories .categories-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#categories .categories-section .button-btn button{
+  color: #456ED6;
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  background: none;
+  
+  
+}
+#categories .categories-section .button-btn{
+  border: 1px solid #456ED6;
+  padding: 10px 30px;
+  border-radius: 14px;
+  transition: all linear .3s;
+
+}
+#categories .categories-section .button-btn:hover{
+background-color: #c1cff3;
+}
+.item-img{
+  margin-top: 67px;
+}
+
+/* Categories End */
+
+/* Products start */
+#products{
+  margin-top: 121px;
+ 
+}
+#products .products-item{
+  margin-top: -10px;
+  margin-right: 170px;
+}
+
+
+#products .products-item p{
+  color: #000;
+
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+#products .products-item2{
+  background: #FFF;
+  margin-top: 71px;
+  border-radius: 14px;
+  align-content: center;
+  width: 260px;
+  margin-bottom: 70px;
+  border: 1px solid #9F9F9F;
+}
+
+#products .products-item2 p{
+  color: #000;
+font-family: "Poppins", serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 216px;
+margin-left: 14px;
+}
+
+#products .products-item2 img{
+  margin: 8px;
+}
+
+#products .products-item2 h6{
+  color: #000;
+
+font-family: "Poppins", serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 14px;
+}
+
+#products .products-item2 .jakarta-item{
+  display: flex;
+  margin-top: 15px;
+}
+
+#products .products-item2 span{
+  margin-left: -67px;
+  
+}
+#products .products-item2 span i{
+  color: #FFC540;
+  
+}
+
+#products .products-item2 input{
+  width: 90%;
+  margin: 0px 8px 0px 12px;
+}
+
+#products .products-item2 p{
+  color: #000;
+
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+/* products End */
